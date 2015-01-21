@@ -23,6 +23,18 @@
             </Stroke>
             -->
           </PolygonSymbolizer>        
+          <TextSymbolizer>
+            <Label>
+              <ogc:PropertyName>depth</ogc:PropertyName>
+            </Label>
+            <Font>
+              <CssParameter name="font-family">Arial</CssParameter>
+              <CssParameter name="font-size">10</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
+              <CssParameter name="font-weight">normal</CssParameter>
+            </Font>
+          </TextSymbolizer>
+
         </Rule>
       </FeatureTypeStyle>
     </UserStyle>
